@@ -91,7 +91,7 @@ textarea {
 	width: 23px;
 	height: 37px;
 	position: absolute;
-	margin-bottom: 115px;
+	bottom: 115px;
 	left: 50%;
 	margin-left: -12px;
 	background: url('../img/scroll.svg') no-repeat 50% / cover;
@@ -191,8 +191,7 @@ color:#fff;
 	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
-	padding: 20px 30px;
-	margin: 0 0 0 40px;
+	padding: 15px 35px;
 	font-weight: 400;
 }
 .ba-contact__link:hover{
@@ -204,6 +203,7 @@ color:#fff;
 .ba-portfolio__row{
 	display: flex;
 	margin-left: -10px;
+	padding-top: 10px;
 }
 .ba-portfolio__link{
 	color: #fff;
@@ -232,4 +232,23 @@ color:#fff;
 }
 .ba-portfolio__tittle:hover{
 	border: 2px solid #fff;
+}
+.ba-col-6{
+	width: 42%;
+}
+.ba-col-4{
+	width: 29%;
+}
+.ba-portfolio{
+	margin-top: -10px;
+}
+.ba-footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 0 64px 0;
+}
+.ba-footer img{
+display: block;
+margin-right: 30px;
 }
