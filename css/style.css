@@ -252,3 +252,7 @@ color:#fff;
 display: block;
 margin-right: 30px;
 }
+[class*="ba-col-"]:hover{
+	opacity: .5;
+}
+
